@@ -1,0 +1,202 @@
+body {cursor: none; font-family: 'Shrikhand', cursive;}
+a{cursor: none;}
+
+@font-face{font-family: 'Bazzi'; src: url('Bazzi.woff')}
+
+.fullpage .section .content .box{position: fixed; width: 600px; height: 40px; text-align: center; padding: 10px; border-radius: 70px;}
+.fullpage .section .content .box ul li{font-size: 38px; float: left; margin: 3px 10px; color: #fff;}
+
+/*프로필페이지*/
+.fullpage .section:nth-child(2) {position: relative; text-align: center;}
+.fullpage .section:nth-child(2) h4{font-size: 40px; margin-bottom: 3%;}
+.fullpage .section:nth-child(2) .logo{position: absolute; top: 20%; left: 12%; width: 400px; height: 400px;}
+.fullpage .section:nth-child(2) .logo img{width: 400px; height: 400px;}
+.fullpage .section:nth-child(2) .information{position: absolute; bottom: 20%; left: 14%;}
+.fullpage .section:nth-child(2) .career{position: absolute; top: 20%; right: 17%;}
+.fullpage .section:nth-child(2) .certificate{position: absolute; top: 45%; right: 16%;}
+.fullpage .section:nth-child(2) .skill{position: absolute; top: 70%; right: 10%;}
+.fullpage .section:nth-child(2) .skill .skillimg img{width: 100px; height: 100px;}
+.fullpage .section:nth-child(2) ul li{font-family: 'Bazzi'; font-size: 25px; line-height: 30px;}
+
+
+.fullpage .section:nth-child(2) h3,
+.fullpage .section:nth-child(4) h3,
+.fullpage .section:nth-child(3) h3,
+.fullpage .section:last-child h3{font-size: 70px; text-align: center; margin-top: 4%; font-weight: bold;}
+.fullpage .section:nth-child(3) h3{display: inline-block; text-align: center; margin-left: 50%; transform: translateX(-50%);}
+
+
+/*웹페이지*/
+.fullpage .section:nth-child(3) .slide .content-box{width: 100%; height: 1000px; position: relative;}
+.fullpage .section:nth-child(3) .slide .content-box .content-left,
+.fullpage .section:nth-child(3) .slide .content-box .content-right{width: 50%; position: absolute; top: 37%; transform: translateY(-50%); text-align: center;}
+.fullpage .section:nth-child(3) .slide .content-box .content-right{right: 4%;}
+.fullpage .section:nth-child(3) .slide .content-box .contentimg{transition: 1s; opacity: 0; position: relative; width: 845px; height: 600px; margin-left: 10%;}
+.fullpage .section:nth-child(3) .slide .content-box .contentimg img{width: 100%; height: 100%;}
+.fullpage .section:nth-child(3) .slide .content-box .contentimg .webphone{position: absolute; top: 0; left: 0; width: 845px; height: 600px;}
+.fullpage .section:nth-child(3) .slide .content-box p{transition: opacity 1s 1s, left 1s 1s; opacity: 0; left: -20px; text-align: center; font-size: 40px; margin: 20px 0; margin-left: 8.5%;}
+
+.fullpage .section:nth-child(3) .slide .content-box .animate{opacity: 1; left: 0;}
+.fullpage .section:nth-child(3) .slide .content-box p:hover{font-size: 45px; transition: 1s;}
+
+/*비엣젯*/
+#vietjetairpc{position: absolute; height: 323px; width: 452px; background: url(icon/vietjetair_1.png)top/100%; top: 135px; left: 202px; z-index: 1;}
+#vietjetairpc:hover {background-position: bottom; transition: all 2.5s linear;}
+#vietjetairpad img{height: 220px; width: 250px; position: absolute; left: -43px; z-index: 80;}
+#vietjetairpad{position: absolute; height: 225px; width: 165px; background: url(icon/vietjetair_2.png)top/100%; bottom: 75px; left: 634px; z-index: 9;}
+#vietjetairpad:hover {background-position: bottom; transition: all 5s linear;}
+#webpad{position: absolute; background: url(icon/webpad.png)bottom/100%; background-repeat: no-repeat; width: 305px; height: 500px; left: 507px; bottom: 57px; z-index: 5;}
+#vietjetairmobile{position: absolute; height: 144px; width: 80px; background: url(icon/vietjetair_3.jpg)top/100%; bottom: 80px; left: 117px; z-index: 10;}
+#vietjetairmobile:hover {background-position: bottom; transition: all 2.5s linear;}
+#webmobile{position: absolute; background: url(icon/webphone.png)bottom/100%; background-repeat: no-repeat; width: 170px; height: 250px; left: 38px; bottom: 45px; z-index: 8;}
+/*네스프레소*/
+#nespressopc{position: absolute; height: 323px; width: 452px; background: url(icon/nespresso.png)top/100%; top: 135px; left: 202px; z-index: 1;}
+#nespressopc:hover {background-position: bottom; transition: all 2.5s linear;}
+/*쉐보레*/
+#chevrolet{position: absolute; height: 323px; width: 452px; background: url(detaile/chevrolet.png)top/100%; top: 135px; left: 202px; z-index: 1;}
+#chevrolet:hover {background-position: bottom; transition: all 5s linear;}
+/*츄*/
+#chuu{position: absolute; height: 323px; width: 452px; background: url(detaile/chuu_1jpg.jpg)top/100%; top: 135px; left: 202px; z-index: 1;}
+#chuu:hover {background-position: bottom; transition: all 10s linear;}
+/*엔씨플레이*/
+#ncplay{position: absolute; height: 323px; width: 452px; background: url(detaile/ncplay.jpg)top/100%; top: 135px; left: 202px; z-index: 1;}    
+#ncplay:hover {background-position: bottom; transition: all 5s linear;}
+/*고시*/
+#gosi{position: absolute; height: 323px; width: 452px; background: url(detaile/gosi_1.png)top/100%; top: 135px; left: 202px; z-index: 1;}    
+#gosi:hover {background-position: bottom; transition: all 5s linear;}
+#mobileweb{position: absolute; background: url(icon/webphone.png)bottom/100%; background-repeat: no-repeat; width: 170px; height: 250px; left: 38px; bottom: 45px; z-index: 8;}
+#gosimobile{position: absolute; height: 144px; width: 80px; background: url(icon/vietjetair_3.jpg)top/100%; bottom: 80px; left: 117px; z-index: 10;}
+#gosimobile:hover {background-position: bottom; transition: all 2.5s linear;}
+
+/*디자인페이지*/
+.fullpage .section:nth-child(4) .design{width: 23%; height: 15%; border: 1px solid #333; color: black; margin-top: 70px; margin-left: 8%; float: left;}
+.fullpage .section:nth-child(4) .design{position: relative; overflow: hidden; padding-bottom: 560px;}
+.fullpage .section:nth-child(4) .design span{position: absolute; display: block; background-color: black; transition: all 0.5s; z-index: 2;}
+.fullpage .section:nth-child(4) .design span:nth-child(1) {top: 0; height: 5px; width: 0;}
+.fullpage .section:nth-child(4) .design span:nth-child(2) {top: 0; right: 0; height: 0; width: 5px;}
+.fullpage .section:nth-child(4) .design span:nth-child(3) {height: 5px; width: 0; bottom: 0; right: 0;}
+.fullpage .section:nth-child(4) .design span:nth-child(4) {left: 0; width: 5px; bottom: 0; height: 0;}
+.fullpage .section:nth-child(4) .design:hover span:nth-child(1) {width: 100%;}
+.fullpage .section:nth-child(4) .design:hover span:nth-child(2) {height: 100%;}
+.fullpage .section:nth-child(4) .design:hover span:nth-child(3) {width: 100%;}
+.fullpage .section:nth-child(4) .design:hover span:nth-child(4) {height: 100%;}
+.fullpage .section:nth-child(4) .design:hover span:nth-child(4) {height: 100%;}
+
+.fullpage .section:nth-child(4) .design .view p{padding: 5px 0; font-size: 40px; text-align: center;}
+.fullpage .section:nth-child(4) .design .detail p{background-color: black; color: #fff; font-size: 40px; text-align: center; padding: 5px 0;}
+.fullpage .section:nth-child(4) .design img{width: 100%; height: 610px;position: absolute; top: 100px; object-fit: cover;}
+.fullpage .section:nth-child(4) .design .kanubgi{position: absolute; top: 15%; left: 0; width: 100%; height: 100%; background: url(icon/phone.png)top/100%; background-repeat: no-repeat; z-index: 2;}
+.fullpage .section:nth-child(4) .design .kanumobile{position: absolute; top: 27%; left: 23%; width: 235px; height: 415px; background: url(icon/kanumobile.png)top/100%; z-index: 3;}
+.fullpage .section:nth-child(4) .design .kanumobile:hover {background-position: bottom;transition: all 5s linear;}
+
+
+*/
+/*컨택트*/
+
+.fullpage .section:last-child {text-align: center;}
+.fullpage .section:last-child img{width: 300px;height: 300px; margin-top: 5%; margin-left: 42%;}
+.fullpage .section:last-child p{font-size: 60px; margin-top: 5%; text-align: center;}
+.fullpage .section:last-child ul li{font-size: 40px; margin-top: 3%; text-align: center;}
+
+
+/*        마우스*/
+        .pointer, .pointer-outer { mix-blend-mode: exclusion; width: 20px; height: 20px;}
+
+        .pointer-outer {position: fixed; top: -20px; left: -20px; z-index: 5000; pointer-events: none !important;}
+
+        .pointer {position: absolute; background-color: #fff; border-radius: 50%;
+            -webkit-transition: transform .2s cubic-bezier(.175, .885, .32, 1.275);
+            -moz-transition: transform .2s cubic-bezier(.175, .885, .32, 1.275);
+            -ms-transition: transform .2s cubic-bezier(.175, .885, .32, 1.275);
+            -o-transition: transform .2s cubic-bezier(.175, .885, .32, 1.275);
+            transition: transform .2s cubic-bezier(.175, .885, .32, 1.275);
+            transform-origin: center center;}
+
+            .zooming.pointer { -webkit-transform: scale(2); -moz-transform: scale(2); -ms-transform: scale(2); -o-transform: scale(2); transform: scale(2); }
+
+        ::selection { background-color: #5cffbb; color: #fff;}
+
+        a.test {font-size: 5rem; font-weight: bold; text-transform: uppercase; color: #fff;
+            text-decoration: none;
+            cursor: none;
+
+        }
+
+        .box {
+            background-color: black;
+            width: 550px;
+            text-align: center;
+            z-index: 99;
+        }
+
+        .content {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        .content::before {
+            z-index: 1;
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            width: 60vw;
+            height: 50vh;
+            background-color: #000;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            transition: all 4s;
+
+        }
+        .box2{ position: absolute; left: 20%; width: 100%;top: 25%;}
+        .box2 .text {
+            z-index: 2;
+            position: absolute;
+            top: -50px;
+            left: 40px;
+            color: #fff;
+            font-size: 78px;
+            font-weight: 900;
+            line-height: 1.2em;
+            mix-blend-mode: exclusion;
+            text-shadow: 0 0 1px #000;
+            transition: all 5s;
+            animation-name: text-shake;
+            animation-duration: 3s, 3s;
+            animation-timing-function: linear, ease-in-out;
+            animation-iteration-count: infinite, infinite;
+            animation-play-state: running, running;}
+
+        @keyframes text-shake { 0% {transform: translateY(0vh)} 50% {transform: translateY(-2vh)}
+            100% {transform: translateY(0vh)}}
+        
+@media screen and (min-width: 641px) and (max-width: 1400px){
+.fullpage .section:nth-child(2) h3,
+.fullpage .section:nth-child(4) h3,
+.fullpage .section:nth-child(3) h3,
+.fullpage .section:last-child h3{margin-top: 8%;}
+.fullpage .section:nth-child(4) .design{height: 7%;}
+.fullpage .section:nth-child(2) .logo{left: 5%;}
+.fullpage .section:nth-child(2) .information{left: 5%;}
+    .fullpage .section .content .box2 .text{font-size: 60px;}
+}
+
+@media screen and (max-width: 640px){
+.fullpage .section:nth-child(2) h3,
+.fullpage .section:nth-child(4) h3,
+.fullpage .section:nth-child(3) h3,
+.fullpage .section:last-child h3{margin-top: 20%;}
+.fullpage .section .content .box{width: 97%; padding: 7px;}
+.fullpage .section .content .box ul li{font-size: 28px; margin: 6px 10px;}
+.fullpage .section:nth-child(4) .design{height: 7%;}
+.fullpage .section:nth-child(2) .career,
+.fullpage .section:nth-child(2) .certificate,
+.fullpage .section:nth-child(2) .skill{display: none;}
+.fullpage .section:nth-child(2) .information{left: 20%;}
+.fullpage .section .content .box2 .text{font-size: 43px;}
+    .fullpage .section:last-child ul li:last-child{font-size: 35px;}
+}

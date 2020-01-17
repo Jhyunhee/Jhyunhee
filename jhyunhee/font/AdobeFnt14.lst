@@ -1,0 +1,97 @@
+%!Adobe-FontList 1.14
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\전현희\fullpage\Font\__MACOSX\._CookieRunFont_TTF
+FileModTime:1574830138
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\전현희\fullpage\Font\__MACOSX\CookieRunFont_TTF\._CookieRun Regular.ttf
+FileModTime:1574665744
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\전현희\fullpage\Font\__MACOSX\CookieRunFont_TTF\._CookieRun Bold.ttf
+FileModTime:1569333470
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\전현희\fullpage\Font\__MACOSX\CookieRunFont_TTF\._CookieRun Black.ttf
+FileModTime:1569333466
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CookieRun-Regular
+FamilyName:CookieRun
+StyleName:Regular
+FullName:CookieRun Regular
+MenuName:CookieRun Regular
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\전현희\fullpage\Font\CookieRunFont_TTF\CookieRun Regular.ttf
+DataFormat:sfntData
+FileLength:2259616
+FileModTime:1574665744
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CookieRun-Bold
+FamilyName:CookieRun
+StyleName:Bold
+FullName:CookieRun Bold
+MenuName:CookieRun Bold
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\전현희\fullpage\Font\CookieRunFont_TTF\CookieRun Bold.ttf
+DataFormat:sfntData
+FileLength:2241220
+FileModTime:1569333470
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CookieRun-Black
+FamilyName:CookieRun
+StyleName:Black
+FullName:CookieRun Black
+MenuName:CookieRun Black
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Black
+FullNameNative:
+WritingScript:Korean
+OutlineFileName:E:\전현희\fullpage\Font\CookieRunFont_TTF\CookieRun Black.ttf
+DataFormat:sfntData
+FileLength:2118016
+FileModTime:1569333466
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
