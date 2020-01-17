@@ -40,32 +40,32 @@ a{cursor: none;}
 .fullpage .section:nth-child(3) .slide .content-box p:hover{font-size: 45px; transition: 1s;}
 
 /*비엣젯*/
-#vietjetairpc{position: absolute; height: 323px; width: 452px; background: url(icon/vietjetair_1.png)top/100%; top: 135px; left: 202px; z-index: 1;}
+#vietjetairpc{position: absolute; height: 323px; width: 452px; background: url(site/vietjetair_1.png)top/100%; top: 135px; left: 202px; z-index: 1;}
 #vietjetairpc:hover {background-position: bottom; transition: all 2.5s linear;}
 #vietjetairpad img{height: 220px; width: 250px; position: absolute; left: -43px; z-index: 80;}
-#vietjetairpad{position: absolute; height: 225px; width: 165px; background: url(icon/vietjetair_2.png)top/100%; bottom: 75px; left: 634px; z-index: 9;}
+#vietjetairpad{position: absolute; height: 225px; width: 165px; background: url(site/vietjetair_2.png)top/100%; bottom: 75px; left: 634px; z-index: 9;}
 #vietjetairpad:hover {background-position: bottom; transition: all 5s linear;}
 #webpad{position: absolute; background: url(icon/webpad.png)bottom/100%; background-repeat: no-repeat; width: 305px; height: 500px; left: 507px; bottom: 57px; z-index: 5;}
-#vietjetairmobile{position: absolute; height: 144px; width: 80px; background: url(icon/vietjetair_3.jpg)top/100%; bottom: 80px; left: 117px; z-index: 10;}
+#vietjetairmobile{position: absolute; height: 144px; width: 80px; background: url(site/vietjetair_3.jpg)top/100%; bottom: 80px; left: 117px; z-index: 10;}
 #vietjetairmobile:hover {background-position: bottom; transition: all 2.5s linear;}
 #webmobile{position: absolute; background: url(icon/webphone.png)bottom/100%; background-repeat: no-repeat; width: 170px; height: 250px; left: 38px; bottom: 45px; z-index: 8;}
 /*네스프레소*/
-#nespressopc{position: absolute; height: 323px; width: 452px; background: url(icon/nespresso.png)top/100%; top: 135px; left: 202px; z-index: 1;}
+#nespressopc{position: absolute; height: 323px; width: 452px; background: url(site/nespresso.png)top/100%; top: 135px; left: 202px; z-index: 1;}
 #nespressopc:hover {background-position: bottom; transition: all 2.5s linear;}
 /*쉐보레*/
-#chevrolet{position: absolute; height: 323px; width: 452px; background: url(detaile/chevrolet.png)top/100%; top: 135px; left: 202px; z-index: 1;}
+#chevrolet{position: absolute; height: 323px; width: 452px; background: url(site/chevrolet.png)top/100%; top: 135px; left: 202px; z-index: 1;}
 #chevrolet:hover {background-position: bottom; transition: all 5s linear;}
 /*츄*/
-#chuu{position: absolute; height: 323px; width: 452px; background: url(detaile/chuu_1jpg.jpg)top/100%; top: 135px; left: 202px; z-index: 1;}
+#chuu{position: absolute; height: 323px; width: 452px; background: url(site/chuu.jpg)top/100%; top: 135px; left: 202px; z-index: 1;}
 #chuu:hover {background-position: bottom; transition: all 10s linear;}
 /*엔씨플레이*/
-#ncplay{position: absolute; height: 323px; width: 452px; background: url(detaile/ncplay.jpg)top/100%; top: 135px; left: 202px; z-index: 1;}    
+#ncplay{position: absolute; height: 323px; width: 452px; background: url(site/ncplay.jpg)top/100%; top: 135px; left: 202px; z-index: 1;}    
 #ncplay:hover {background-position: bottom; transition: all 5s linear;}
 /*고시*/
-#gosi{position: absolute; height: 323px; width: 452px; background: url(detaile/gosi_1.png)top/100%; top: 135px; left: 202px; z-index: 1;}    
+#gosi{position: absolute; height: 323px; width: 452px; background: url(site/gosi_1.png)top/100%; top: 135px; left: 202px; z-index: 1;}    
 #gosi:hover {background-position: bottom; transition: all 1s linear;}
 #mobileweb{position: absolute; background: url(icon/webphone.png)bottom/100%; background-repeat: no-repeat; width: 170px; height: 250px; left: 38px; bottom: 45px; z-index: 8;}
-#gosimobile{position: absolute; height: 144px; width: 80px; background: url(detaile/gosi_2.png)top/100%; bottom: 80px; left: 117px; z-index: 10;}
+#gosimobile{position: absolute; height: 144px; width: 80px; background: url(site/gosi_2.png)top/100%; bottom: 80px; left: 117px; z-index: 10;}
 #gosimobile:hover {background-position: bottom; transition: all 1s linear;}
 
 /*디자인페이지*/
@@ -86,7 +86,7 @@ a{cursor: none;}
 .fullpage .section:nth-child(4) .design .detail p{background-color: black; color: #fff; font-size: 40px; text-align: center; padding: 5px 0;}
 .fullpage .section:nth-child(4) .design img{width: 100%; height: 610px;position: absolute; top: 100px; object-fit: cover;}
 .fullpage .section:nth-child(4) .design .kanubgi{position: absolute; top: 15%; left: 0; width: 100%; height: 100%; background: url(icon/phone.png)top/100%; background-repeat: no-repeat; z-index: 2;}
-.fullpage .section:nth-child(4) .design .kanumobile{position: absolute; top: 27%; left: 23%; width: 235px; height: 415px; background: url(icon/kanumobile.png)top/100%; z-index: 3;}
+.fullpage .section:nth-child(4) .design .kanumobile{position: absolute; top: 27%; left: 23%; width: 235px; height: 415px; background: url(site/kanumobile.png)top/100%; z-index: 3;}
 .fullpage .section:nth-child(4) .design .kanumobile:hover {background-position: bottom;transition: all 5s linear;}
 
 
