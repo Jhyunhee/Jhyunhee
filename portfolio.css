@@ -63,10 +63,10 @@ a{cursor: none;}
 #ncplay:hover {background-position: bottom; transition: all 5s linear;}
 /*고시*/
 #gosi{position: absolute; height: 323px; width: 452px; background: url(detaile/gosi_1.png)top/100%; top: 135px; left: 202px; z-index: 1;}    
-#gosi:hover {background-position: bottom; transition: all 5s linear;}
+#gosi:hover {background-position: bottom; transition: all 1s linear;}
 #mobileweb{position: absolute; background: url(icon/webphone.png)bottom/100%; background-repeat: no-repeat; width: 170px; height: 250px; left: 38px; bottom: 45px; z-index: 8;}
-#gosimobile{position: absolute; height: 144px; width: 80px; background: url(icon/vietjetair_3.jpg)top/100%; bottom: 80px; left: 117px; z-index: 10;}
-#gosimobile:hover {background-position: bottom; transition: all 2.5s linear;}
+#gosimobile{position: absolute; height: 144px; width: 80px; background: url(detaile/gosi_2.png)top/100%; bottom: 80px; left: 117px; z-index: 10;}
+#gosimobile:hover {background-position: bottom; transition: all 1s linear;}
 
 /*디자인페이지*/
 .fullpage .section:nth-child(4) .design{width: 23%; height: 15%; border: 1px solid #333; color: black; margin-top: 70px; margin-left: 8%; float: left;}
