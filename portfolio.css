@@ -31,12 +31,13 @@ a{cursor: none;}
 .fullpage .section:nth-child(3) .slide .content-box .content-left,
 .fullpage .section:nth-child(3) .slide .content-box .content-right{width: 50%; position: absolute; top: 37%; transform: translateY(-50%); text-align: center;}
 .fullpage .section:nth-child(3) .slide .content-box .content-right{right: 4%;}
-.fullpage .section:nth-child(3) .slide .content-box .contentimg{transition: 1s; opacity: 0; position: relative; width: 845px; height: 600px; margin-left: 10%;}
+.fullpage .section:nth-child(3) .slide .content-box .contentimg{position: relative; width: 845px; height: 600px; margin-left: 10%;}
+/*transition: 1s; opacity: 0;*/
 .fullpage .section:nth-child(3) .slide .content-box .contentimg img{width: 100%; height: 100%;}
 .fullpage .section:nth-child(3) .slide .content-box .contentimg .webphone{position: absolute; top: 0; left: 0; width: 845px; height: 600px;}
-.fullpage .section:nth-child(3) .slide .content-box p{transition: opacity 1s 1s, left 1s 1s; opacity: 0; left: -20px; text-align: center; font-size: 40px; margin: 20px 0; margin-left: 8.5%;}
-
-.fullpage .section:nth-child(3) .slide .content-box .animate{opacity: 1; left: 0;}
+.fullpage .section:nth-child(3) .slide .content-box p{text-align: center; font-size: 40px; margin: 20px 0; margin-left: 8.5%;}
+/*transition: opacity 1s 1s, left 1s 1s; opacity: 0; left: -20px; */
+/*.fullpage .section:nth-child(3) .slide .content-box .animate{opacity: 1; left: 0;}*/
 .fullpage .section:nth-child(3) .slide .content-box p:hover{font-size: 45px; transition: 1s;}
 
 /*비엣젯*/
@@ -81,7 +82,7 @@ a{cursor: none;}
 .fullpage .section:nth-child(4) .design:hover span:nth-child(3) {width: 100%;}
 .fullpage .section:nth-child(4) .design:hover span:nth-child(4) {height: 100%;}
 .fullpage .section:nth-child(4) .design:hover span:nth-child(4) {height: 100%;}
-
+.fullpage .section:nth-child(4) .design .txt{display: none;}
 .fullpage .section:nth-child(4) .design .view p{padding: 5px 0; font-size: 40px; text-align: center;}
 .fullpage .section:nth-child(4) .design .detail p{background-color: black; color: #fff; font-size: 40px; text-align: center; padding: 5px 0;}
 .fullpage .section:nth-child(4) .design img{width: 100%; height: 610px; position: absolute; top: 100px;}
@@ -90,11 +91,11 @@ a{cursor: none;}
 .fullpage .section:nth-child(4) .design .kanumobile:hover {background-position: bottom;transition: all 5s linear;}
 .fullpage .section:nth-child(4) .design:hover #envelope{display: none; transition: all 3s linear;}
 
-*/
 /*컨택트*/
 
 .fullpage .section:last-child {text-align: center;}
-.fullpage .section:last-child img{width: 300px;height: 300px; margin-top: 5%; margin-left: 42%;}
+.fullpage .section:last-child .sectioncontactimg{text-align: center;}
+.fullpage .section:last-child img{width: 300px;height: 300px;}
 .fullpage .section:last-child p{font-size: 60px; margin-top: 5%; text-align: center;}
 .fullpage .section:last-child ul li{font-size: 40px; margin-top: 3%; text-align: center;}
 
@@ -122,27 +123,12 @@ a{cursor: none;}
 
         }
 
-        .box {
-            background-color: black;
-            width: 550px;
-            text-align: center;
-            z-index: 99;
+        .box {background-color: black; width: 550px; text-align: center; z-index: 99;}
+
+        .content {position: relative; width: 100%; height: 100vh; overflow: hidden; background-color: #fff;
         }
 
-        .content {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-            background-color: #fff;
-        }
-
-        .content::before {
-            z-index: 1;
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
+        .content::before {z-index: 1; content: ""; position: absolute; top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             display: block;
             width: 60vw;
@@ -182,7 +168,7 @@ a{cursor: none;}
 .fullpage .section:nth-child(4) .design{height: 7%;}
 .fullpage .section:nth-child(2) .logo{left: 5%;}
 .fullpage .section:nth-child(2) .information{left: 5%;}
-    .fullpage .section .content .box2 .text{font-size: 60px;}
+.fullpage .section .content .box2 .text{font-size: 60px;}
 }
 
 @media screen and (max-width: 640px){
@@ -198,5 +184,37 @@ a{cursor: none;}
 .fullpage .section:nth-child(2) .skill{display: none;}
 .fullpage .section:nth-child(2) .information{left: 20%;}
 .fullpage .section .content .box2 .text{font-size: 43px;}
-    .fullpage .section:last-child ul li:last-child{font-size: 35px;}
+.fullpage .section:last-child ul li:last-child{font-size: 35px;}
+    
+.fullpage .section:nth-child(4) .design{width: 85%; height: 50px; margin-top: 50px;  float: left;}
+.fullpage .section:nth-child(4) .design{position: relative; overflow: hidden; padding-bottom: 150px;}
+.fullpage .section:nth-child(4) .design img{display: none;}
+.fullpage .section:nth-child(4) .design .kanubgi{display: none;}
+.fullpage .section:nth-child(4) .design .kanumobile{display: none;}
+    .fullpage .section:nth-child(4) .design .txt{display: block; text-align: center; font-size: 60px; margin-top: 5%;}
+    
+.fullpage .section:nth-child(3) .slide .content-box{width: 50%;}
+    .fullpage .section:nth-child(3) .slide .content-box .content-left{width: 50%;}
+.fullpage .section:nth-child(3) .slide .content-box .content-right{right: -35%;}
+.fullpage .section:nth-child(3) .slide .content-box .contentimg{width: 250px; height: 200px; margin-left: 10%;}
+.fullpage .section:nth-child(3) .slide .content-box p{font-size: 30px; margin-left: 60%}
+.fullpage .section:nth-child(3) .slide .content-box p:hover{font-size: 30px;}
+/*비엣젯*/
+#vietjetairpc{position: absolute; height: 105px; width: 130px; background: url(site/vietjetair_1.png)top/100%; top: 23%; left: 62px; z-index: 1;}
+#vietjetairpad{display: none;}
+#webpad{display: none;}
+#vietjetairmobile{display: none;}
+#webmobile{display: none;}
+/*네스프레소*/
+#nespressopc{position: absolute; height: 105px; width: 130px; background: url(site/nespresso.png)top/100%; top: 23%; left: 62px; z-index: 1;}
+/*쉐보레*/
+#chevrolet{position: absolute; height: 105px; width: 130px; background: url(site/chevrolet.png)top/100%; top: 23%; left: 62px; z-index: 1;}
+/*츄*/
+#chuu{position: absolute; height: 105px; width: 130px; background: url(site/chuu.jpg)top/100%; top: 23%; left: 62px; z-index: 1;}
+/*엔씨플레이*/
+#ncplay{position: absolute; height: 105px; width: 130px; background: url(site/ncplay.jpg)top/100%; top: 23%; left: 62px; z-index: 1;}    
+/*고시*/
+#gosi{position: absolute; height: 105px; width: 130px; background: url(site/gosi_1.png)top/100%; top: 23%; left: 62px; z-index: 1;}    
+#mobileweb{display: none;}
+#gosimobile{display: none;}
 }
