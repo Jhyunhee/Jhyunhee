@@ -20,8 +20,9 @@ a{cursor: none;}
 
 
 .fullpage .section:nth-child(2) h3,
-.fullpage .section:nth-child(4) h3,
 .fullpage .section:nth-child(3) h3,
+.fullpage .section:nth-child(4) h3,
+.fullpage .section:nth-child(5) h3,
 .fullpage .section:last-child h3{font-size: 70px; text-align: center; margin-top: 4%; font-weight: bold;}
 .fullpage .section:nth-child(3) h3{display: inline-block; text-align: center; margin-left: 50%; transform: translateX(-50%);}
 
@@ -90,6 +91,9 @@ a{cursor: none;}
 .fullpage .section:nth-child(4) .design .kanumobile{position: absolute; top: 27%; left: 23%; width: 235px; height: 415px; background: url(site/kanumobile.png)top/100%; z-index: 3;}
 .fullpage .section:nth-child(4) .design .kanumobile:hover {background-position: bottom;transition: all 5s linear;}
 .fullpage .section:nth-child(4) .design:hover #envelope{display: none; transition: all 3s linear;}
+
+.fullpage .section:nth-child(5) .bannerimg {position: absolute; top: 250px; left: 150px;}
+.fullpage .section:nth-child(5) .bannerimg img{width: 500px; height: 500px; margin-right: 50px;}
 
 /*컨택트*/
 
