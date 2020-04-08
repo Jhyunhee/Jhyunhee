@@ -90,16 +90,6 @@ a{cursor: none;}
 .fullpage .section:nth-child(4) .design .kanumobile:hover {background-position: bottom;transition: all 5s linear;}
 .fullpage .section:nth-child(4) .design:hover #envelope{display: none; transition: all 3s linear;}
 
-/*배너*/
-.fullpage .section:nth-child(5) .bannerimg {position: absolute; top: 250px; left: 100px;}
-.fullpage .section:nth-child(5) .bannerimg img{width: 300px; height: 300px; margin-right: 50px; margin-bottom: 50px;}
-
-/*페이지*/
-
-.fullpage .section:nth-child(6) .page {position: absolute; top: 180px; left: 150px;}
-.fullpage .section:nth-child(6) .page .pageimg img{width: 310px;height: 770px; margin-right: 30px;}
-.fullpage .section:nth-child(6) .page .pageimg img:nth-child(4){width: 310px; height: 500px; margin-right: 30px; position: absolute;}
-.fullpage .section:nth-child(6) .page .pageimg img:nth-child(5){width: 310px; height: 400px; margin-right: 30px; position: absolute; right: -680px;}
 
 /*컨택트*/
 
